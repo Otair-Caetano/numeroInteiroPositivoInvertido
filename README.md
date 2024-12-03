@@ -3,7 +3,7 @@
 ## Descrição
 Este projeto implementa uma solução simples em linguagem C para inverter os dígitos de um número inteiro de três dígitos. Ele utiliza conceitos básicos de manipulação de números inteiros, como operações matemáticas com módulo e divisão, além de controle de fluxo com `while` e condicionais `if-else`.
 
-O programa foi desenvolvido como parte do curso **Embarca Tech**, promovido pelo **HBr Instituto HARDWARE BR**, uma iniciativa que visa formar profissionais na área de sistemas embarcados e desenvolvimento em baixo nível. O curso é sediado no Parque Tecnológico da UNICAMP, Campinas-SP.
+O programa foi desenvolvido como parte do curso **Embarca Tech**, promovido pelo **HBr Instituto HARDWARE BR**, uma iniciativa que visa formar profissionais na área de sistemas embarcados e desenvolvimento em linguagem C de baixo nível. O curso é sediado no Parque Tecnológico da UNICAMP, Campinas-SP.
 
 ---
 
