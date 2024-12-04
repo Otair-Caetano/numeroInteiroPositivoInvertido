@@ -1,0 +1,36 @@
+#include "stdio.h"
+// Inclui a biblioteca padrão de entrada/saída em C, necessária para usar printf() e scanf().
+
+int main()
+// Declara a função principal, que é o ponto de entrada do programa.
+{
+    int a, b, pow = 1;
+    // Declara três variáveis inteiras:
+    // - 'a': para armazenar a base da potência.
+    // - 'b': para armazenar o expoente.
+    // - 'pow': inicializada como 1, que será usada para armazenar o resultado da potência.
+
+    printf("Digite o primeiro numero: ");
+    // Exibe uma mensagem pedindo ao usuário para inserir o primeiro número.
+
+    scanf("%d", &a);
+    // Lê o valor inteiro inserido pelo usuário e armazena na variável 'a'.
+
+    printf("Digite o segundo numero: ");
+    // Exibe uma mensagem pedindo ao usuário para inserir o segundo número.
+
+    scanf("%d", &b);
+    // Lê o valor inteiro inserido pelo usuário e armazena na variável 'b'.
+
+    for (int i = 1; i <= b; i++)
+    // Um loop 'for' que começa com 'i = 1' e itera até 'i' ser igual ao valor de 'b'.
+    // Cada iteração incrementa 'i' em 1. Este loop controla o número de multiplicações necessárias para calcular a potência.
+    {
+       pow = pow * a;
+       // Multiplica 'pow' pela base 'a' e armazena o resultado em 'pow'.
+       // Após 'b' iterações, 'pow' conterá o valor de 'a' elevado a 'b'.
+    }
+
+    printf("%d", pow);
+    // Exibe o resultado final da potência calculada.
+}
