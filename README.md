@@ -1,4 +1,4 @@
-# Projeto: Inversão de Números de Três Dígitos
+# Inversão de Números de Três Dígitos
 
 ## Descrição
 Este projeto implementa uma solução simples em linguagem C para inverter os dígitos de um número inteiro de três dígitos. Ele utiliza conceitos básicos de manipulação de números inteiros, como operações matemáticas com módulo e divisão, além de controle de fluxo com `while` e condicionais `if-else`.
